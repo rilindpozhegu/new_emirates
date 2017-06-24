@@ -40,17 +40,15 @@
                 <h1 class="wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".2s">How to Grow Your Business on the Web</h1><!-- 
                 <p class="wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".4s">At Emirates Graphic we love to challenge the status quo and to push boundaries in order to fulﬁl your vision. Our carefully selected team of professionals is passionate about helping clients communicate and resonate with their audience using creative, innovative, and intelligent problem solving. By implementing effective branding strategies tailored specifically to your needs, our mission is to always produce a product that successfully tells your story</p> -->
 
-                <a href="portfolio_main.php"><button class="button_style_white_sm button_main button__aylen wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".5s">View Portfolio</button></a>
+                <a href="website.php"><button class="button_style_white_sm button_main button__aylen wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".5s">View More</button></a>
             </div> 
             <div class="col-md-4 col-md-offset-1 col-lg-offset-1 landing_inputs_seve wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s">
                 <div class="row">
-                    <h5>Contact Us</h5>
+                    <h5>Let’s have a quick chat!</h5>
                     <input type="text" name="" placeholder="Name">
                     <input type="text" name="" placeholder="Phone">
-                    <input type="E-mail" name="" placeholder="E-mail">
-                    <input type="text" name="" placeholder="Website">
-                    <textarea placeholder="Message" rows="3"></textarea>                   
-                    <a href="portfolio_main.php"><button class="button_style_red_sm button_main button__aylen wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s">View Portfolio</button></a>
+                    <input type="E-mail" name="" placeholder="E-mail">                   
+                    <a href="#"><button class="button_style_red_sm button_main button__aylen wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s">Call Me</button></a>
                 </div>
             </div>   
         </div>
