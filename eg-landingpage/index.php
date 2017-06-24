@@ -43,13 +43,15 @@
                 <a href="website.php"><button class="button_style_white_sm button_main button__aylen wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".5s">View More</button></a>
             </div> 
             <div class="col-md-4 col-md-offset-1 col-lg-offset-1 landing_inputs_seve wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s">
+                <form id="landing-eg">
                 <div class="row">
                     <h5>Let’s have a quick chat!</h5>
-                    <input type="text" name="" placeholder="Name">
-                    <input type="text" name="" placeholder="Phone">
-                    <input type="E-mail" name="" placeholder="E-mail">                   
-                    <a href="#"><button class="button_style_red_sm button_main button__aylen wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s">Call Me</button></a>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="phone" placeholder="Phone">
+                    <input type="E-mail" name="email" placeholder="E-mail">                   
+                    <a href="#"><button type="submit" class="button_style_red_sm button_main button__aylen wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".4s">Call Me</button></a>
                 </div>
+                </form>
             </div>   
         </div>
     </div>
@@ -142,6 +144,32 @@
 
 <!-- jQuery -->
     <script type="text/javascript" src="../build/scripts.js"></script>
+
+     <script type="text/javascript">
+        $("#landing-eg").submit(function(e) {
+
+                var url = "../mail.php"; // the script where you handle the form input
+
+                $.ajax({
+                       type: "POST",
+                       url: url,
+                       data: $("#landing-eg").serialize()+ "&type=" + "landing", // serializes the form's elements.
+                       beforeSend: function()
+                       {
+                            
+                       },   
+                       complete: function(data)
+                        {
+                            $.notify(data.responseText, "success");
+                          
+                        }
+
+                     });
+
+                e.preventDefault(); // avoid to execute the actual submit of the form.
+            });
+
+    </script>
     <script type="text/javascript">
         $('.multiple-items').slick({
           infinite: true,

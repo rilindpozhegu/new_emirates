@@ -13,7 +13,21 @@ $subjectEmail = 'Mail from'.' '.$_POST['email'];
               '<label><b>Name: </b></label>'.$_POST['name'].'<br>'.
               '<label><b>Website: </b></label>'.$_POST['website'].'<br>'.
               '<label><b>Description: </b></label>'.$_POST['description'].'<br>';
-            }else{
+            }else if($_POST['type'] == "hover"){
+
+              $bodyMail = '<label><b>Email: </b></label>'.$_POST['email'].'<br>'.
+              '<label><b>Phone: </b></label>'.$_POST['phone'].'<br>'.
+              '<label><b>Name: </b></label>'.$_POST['name'].'<br>'.
+              '<label><b>Website: </b></label>'.$_POST['website'].'<br>';
+
+            }else if($_POST['type'] == "landing"){
+
+              $bodyMail = '<label><b>Email: </b></label>'.$_POST['email'].'<br>'.
+              '<label><b>Phone: </b></label>'.$_POST['phone'].'<br>'.
+              '<label><b>Name: </b></label>'.$_POST['name'].'<br>';
+
+            }
+            else{
               $bodyMail = '<label><b>Email: </b></label>'.$_POST['email'].'<br>'.
               '<label><b>Budget: </b></label>'.$_POST['budget'].'<br>'.
               '<label><b>Website: </b></label>'.$_POST['website'].'<br>'.
