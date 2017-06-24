@@ -1,0 +1,66 @@
+.slider_slick_portfolio_main {
+	background-image: url('../portfolio/img/portfolio_all_bg_body21-01.png');
+    background-size: cover;
+    padding-top: 11%;
+    padding-bottom: 4%;
+    background-attachment: fixed;
+}
+.slider_proj_mac img {
+    padding: 20px 100px 0px 125px !important;
+    width: 100%;
+}
+
+.slick-prev:before, .slick-next:before {	
+    font-family: 'slick';
+    font-size: 49px !important;
+    line-height: 1;
+    opacity: .75;
+    color: #ff0202 !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.responsive_portfolio h1 {
+	color: #2A2E3A;
+	text-align: left;
+	font-family: 'Montserrat-Bold';
+	margin-top: 0px;
+	font-size: 47px;
+}
+
+.responsive_portfolio p {
+	text-align: left;
+}
+.slider_proj_mac {
+	text-align: center !important;
+}
+.slider_proj_mac img{
+	padding: 20px 150px;
+	width: 100%;
+}
+
+.experience_text_portfolio h3{
+    font-size: 35px; 
+    font-family: 'Montserrat-Bold';
+    color: #ccc;
+    text-align: right;
+    padding-top: 0.5%;
+}
+.experience_text_portfolio2 {
+    text-align: left;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 93% !important;
+    left: 51px !important;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.view_project_btn_sec {
+    text-align: left;
+    padding: 0px;
+}

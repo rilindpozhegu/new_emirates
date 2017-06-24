@@ -1,0 +1,330 @@
+.first_section_landingsev {
+	background-image: url('../img/cover17.png');
+	background-size: cover;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center 0px;
+    padding: 14% 6px 8%;
+}
+
+.first_section_landingsev h1 {
+	font-family: 'Montserrat-Bold';
+	color: #fff;
+    font-size: 65px;
+    letter-spacing: -2px;
+}
+
+.first_section_landingsev p {
+	color: white;
+	font-family: 'Montserrat-Regular';
+    letter-spacing: 1px;
+    font-size: 13px;
+
+}
+
+/*Landing page inputs*/
+
+.landing_inputs_seve {
+	background: rgba(0, 0, 0, 0.32);
+	border-radius: 20px;
+	padding: 3%;
+	text-align: center;
+}
+
+.landing_inputs_seve h5 {
+	font-size: 25px;
+	color: white;
+	text-align: left;
+	padding-left: 30px;
+	margin-top: 3px;
+}
+
+.landing_inputs_seve input {
+	width: 85%;
+	height: 40px;
+	background: transparent no-repeat;
+	border: 0;
+	color: white;
+	padding: 10px;
+	font-size: 13px;
+
+	  /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
+	background-image: linear-gradient(to bottom, #FF0000, #FF0000), linear-gradient(to bottom, #5D6A84, #5D6A84);
+	/* sizes for the 2 images (default state) */
+	background-size: 0 5px, 100% 2px;
+	/* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+	background-position: 50% 100%, 50% 100%;
+	/* animation solely on background-size */
+  	transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+
+.landing_inputs_seve input:active {
+	background-size: 100% 2px, 100% 1px;
+	outline: none;
+} 
+
+.landing_inputs_seve input:focus {
+	background-size: 100% 2px, 100% 1px;
+	outline: none;
+} 
+
+
+.landing_inputs_seve textarea {
+	width: 85%;
+	color: white;
+	padding: 10px;
+	background: transparent no-repeat;
+	border: 0;
+	resize: none;
+	font-size: 13px;
+
+
+		  /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
+	background-image: linear-gradient(to bottom, #FF0000, #FF0000), linear-gradient(to bottom, #5D6A84, #5D6A84);
+	/* sizes for the 2 images (default state) */
+	background-size: 0 5px, 100% 2px;
+	/* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+	background-position: 50% 100%, 50% 100%;
+	/* animation solely on background-size */
+  	transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+.landing_inputs_seve textarea:active {
+	background-size: 100% 2px, 100% 1px;
+	outline: none;
+} 
+
+.landing_inputs_seve textarea:focus {
+	background-size: 100% 2px, 100% 1px;
+	outline: none;
+} 
+
+.landing_inputs_seve button {
+	float: left;
+	margin-left: 30px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+/*Second Section With SVG*/
+
+.second_section_landing_sev {
+	padding: 5% 10px;
+	text-align: center;
+}
+
+.second_section_landing_sev .col-md-6 {
+	padding: 10px 5%;
+}
+
+.second_section_landing_sev img {
+	width: 30%;
+}
+
+.second_section_landing_sev h2 {
+	font-family: 'Montserrat-Ultralight';
+	color: #5D6A84;
+	font-size: 35px;
+	margin-bottom: 7%;
+}
+
+.second_section_landing_sev p {
+	font-family: 'Montserrat-Regular';
+	color: #5D6A84;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+
+/*Third Section landing seventeen*/
+
+.third_section_grow_business {	
+	background-image: url('../img/cover2.png');
+	background-size: cover;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center 0px;
+    padding: 5% 6px 8%;
+    text-align: center;
+}
+
+.third_section_grow_business img {
+	width: 20%;
+}
+
+.third_section_grow_business h2 {
+	font-family: 'Montserrat-Ultralight';
+	color: #fff;
+	font-size: 40px;
+	margin-bottom: 2%;
+}
+
+.third_section_grow_business p {
+	font-family: 'Montserrat-Regular';
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 30px;
+}
+
+/*Last Section of the landingpage*/
+
+.help_of_emirates_sev {
+	padding: 7% 10px;
+}
+
+.fact_circle {
+	background: #2C384C;
+	height: 70px;
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+}
+
+.fact_circle h5 {
+	margin-bottom: 0px;
+	padding-top: 17px;
+	font-size: 16px;
+	font-family: 'Montserrat-Regular';
+}
+
+.fact_circle p {
+	font-size: 11px;
+	font-family: 'Montserrat-Regular';
+}
+
+.content_of_help h2 {
+	font-family: 'Montserrat-Bold';
+	color: #2C384C;
+	font-size: 32px;
+	margin-top: 7px;
+	letter-spacing: -1px
+}
+
+.content_of_help p {
+	font-family: 'Montserrat-Regular';
+	color: #5D6A84;
+}
+
+.content_of_help hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0;
+    border-top: 2px solid #c1c0c0;
+
+}
+
+.content_of_help h5 {
+	font-family: 'HelveticaNeueLTStd';
+	/*font-style: italic;*/
+	letter-spacing: 2px;
+	font-size: 14px;
+	color: #5D6A84;
+}
+
+.content_of_help h4 {
+	font-family: 'HelveticaNeueLTStd';
+	/*font-style: italic;*/
+	letter-spacing: 2px;
+	font-size: 14px;
+	color: #5D6A84;
+
+}
+
+.slider_landing_sev img {
+	width: 100%;
+}
+
+.slider_landing_sev .slick-dots {
+	position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 83% !important;
+    left: 51px !important;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.general_footer p {
+	font-size: 15px;
+}
+.general_footer .boldingparagraph {
+	font-family: 'Montserrat-Regular';
+}
+.solial_media_footer {
+	margin-top: 10px;
+}
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 1000px) {
+    .desktop-d-n {
+      display: none;
+    }
+    .statistics_section_home {
+	    background-color: #2A2E3A;
+	    /*height: 66%;*/
+	}
+
+}
+
+
+
+ 
+
+/*Only on Mobile*/
+@media only screen and (max-width: 1000px) {
+    .mobile-d-n {
+   		display: none;
+  	}
+
+  	.first_section_landingsev h1 {
+	    font-family: 'Montserrat-Bold';
+	    color: #fff;
+	    font-size: 48px;
+	    letter-spacing: -2px;
+	}
+	.first_section_landingsev {
+		padding: 26% 10px 4%;
+	}
+
+	.landing_inputs_seve  {
+		margin-top: 11%;
+	}
+	.second_section_landing_sev p {
+	    font-family: 'Montserrat-Regular';
+	    color: #5D6A84;
+	    font-size: 15px;
+	    letter-spacing: -1px;
+	    line-height: 22px;
+	}
+	.content_of_help h4 {
+	    font-family: 'HelveticaNeueLTStd';
+	    /* font-style: italic; */
+	    letter-spacing: 2px;
+	    font-size: 12px;
+	    color: #5D6A84;
+	    text-align: center;
+	}
+
+	.slider_landing_sev .slick-dots {
+	    display: none !important;
+	    margin-top: 3%;
+	}
+}

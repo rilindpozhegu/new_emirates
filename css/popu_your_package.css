@@ -1,0 +1,115 @@
+   
+.pop_up_modal_package {
+    background-image: url(../img/covers/services_backgorund_cover-01.png);
+    background-size: cover;
+    margin-top: 12%;
+    background-position: 70%;
+    background-repeat: no-repeat; 
+    /*padding: 15% 30px;*/
+}
+   
+.popup_page_bg {
+    background-image: url(../img/services/brand_cover-01.png);
+    /*padding: 15% 30px;*/
+}
+.pop_up_modal_package .col-md-7 {
+	padding: 10% 5%;
+}
+
+.pop_up_modal_package p {
+	color: white;
+	font-family: 'Montserrat-Light';
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.pop_up_modal_package h1{
+	color: white;
+	margin-top: 0px;
+	font-family: 'Montserrat-Bold';
+	font-size: 45px;
+	letter-spacing: -2px;
+
+}
+
+.pop_up_modal_package span {
+	color: red;
+}
+
+.pop_up_modal_package h5 {
+	color: #7F8289;
+    font-size: 21px;
+    padding: 10px 0px 28px;
+}
+.pop_up_modal_package input {
+	width: 50%;
+    background: transparent;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    border-radius: 25px;
+    border: solid 1px rgba(255, 255, 255, 0.67);
+}
+
+.pop_up_modal_package .iksi {
+	float: right;
+}
+.iksi {
+	color: white !important;
+	font-size: 30px;
+	color: white !important;
+}
+
+
+.close_button_cols {
+	text-align: right;
+}
+
+.close_button_cols button {
+	width: 3% !important;
+	background-color: transparent;
+	border: none;
+}
+
+.close_button_cols button span {
+	color: #ccc !important;
+}
+
+.close_button_cols button span:hover{
+	transition: ease-in-out all 0.3s;
+	color: white;
+}
+
+/*-=================-*/
+
+/*	check Porfolio	 */
+
+/*-=================-*/
+
+#view_portfolio_pop {
+	padding-top: 5%;
+}
+
+.view_portfolio_popup img {
+	width: 100%;
+}
+
+.view_portfolio_popup h1 {
+	color: #595E69;
+	font-family: 'Montserrat-Bold';
+	font-size: 25px;
+	padding: 5px 10px;
+}
+
+.view_portfolio_popup p {
+	color: #83868F;
+	font-size: 17px; 
+	padding: 5px 10px;
+}
+
+.view_portfolio_popup .modal-footer {
+	text-align: center !important;
+	border: none;
+	padding: 0px;
+	margin-bottom: 20px;
+}

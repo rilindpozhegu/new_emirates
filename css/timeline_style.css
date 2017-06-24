@@ -1,0 +1,126 @@
+.timeline_section {
+    background-color: white;
+    background-image: url('../img/backgorund/our_story_bg_white-01.png');
+    /*background-position: center top;*/
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    padding-top: 60px;
+    background-position: center 0px; 
+}
+
+.timeline_section h1 {
+    font-family: 'Montserrat-Bold';
+    font-size: 50px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+.timeline_section span {
+    color: red;
+}
+.timeline_section h3 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat-UltraLight';
+    margin-bottom: 30px;
+}
+.holder{
+    width: 100%;
+}
+.history-tl-container{
+    margin:auto;
+    display:block;
+    position:relative;
+    text-align: center;
+}
+.history-tl-container ul.tl{
+    margin:20px 0;
+    padding:0;
+    display:inline-block;
+
+}
+.history-tl-container ul.tl li{
+    list-style: none;
+    margin:auto;
+    margin-left:145px;
+    min-height:150px;
+    /*background: rgba(255,255,0,0.1);*/
+    border-left:2px solid rgba(93, 106, 132, 0.39);
+    padding:0 0 50px 30px;
+    position:relative;
+}
+.history-tl-container ul.tl li:last-child{ border-left:0;}
+.history-tl-container ul.tl li::before{
+    position: absolute;
+    left: -11px;
+    top: -5px;
+    content: " ";
+    /*border: 8px solid rgba(255, 255, 255, 0.74);*/
+    border-radius: 500%;
+    background: #5D6A84;
+    height: 20px;
+    width: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.history-tl-container ul.tl li:hover::before{
+    background: #FF0000;
+    transition: all 0.2s ease-in-out;
+}
+.history-tl-container ul.tl li:hover::before
+ul.tl li .item-title{
+}
+ul.tl li .item-detail{
+    color:rgba(0,0,0,0.5);
+    font-size:12px;
+}
+
+ul.tl li .timestamp {
+    color: #8D8D8D;
+    position: absolute;
+    width: 141px;
+    left: -46%;
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Montserrat-Bold';
+    top: -7px;
+}
+.history-tl-container ul.tl li:hover .timestamp {
+    color: red;
+}
+/* Text Edition on Timeline " Left Side " */
+.hidden_timeline_panel {
+    background-color: transparent;
+    color: transparent;
+}
+
+.history-tl-container ul.tl li:hover .hidden_timeline_panel {
+    background: #2A2E3A;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+}
+.history-tl-container ul.tl li:hover .shigjeta_timeline {
+    color: #2A2E3A;
+    transition: all 0.2s ease-in-out;
+}
+.item-title {
+    padding: 12px 18px 5px;
+}
+.item-title h4 {
+    font-family: 'Montserrat-Bold';
+    font-size: 18px;
+}
+
+
+
+
+.shigjeta_timeline {
+    color: transparent;
+    position: absolute;
+    left: 21px;
+    font-size: 28px;
+    top: -3px;
+    transition: all 0.2s ease-in-out;
+}

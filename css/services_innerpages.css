@@ -1,0 +1,247 @@
+/*=======================*/
+
+/*	Services Innerpages  */
+
+/*=======================*/
+
+
+/*Website Services Page*/
+
+.cover_section_website {
+	background-image: url('../img/services/website_cover-01.png');
+	background-size: cover;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center 0px;
+    padding: 14% 6px 8%;
+}
+.cover_section_website p {
+	color: #fff;
+	font-size: 17px;
+	font-family: 'Montserrat-Light'
+}
+.second_section_websitep {
+	background-image: url('../img/services/services_details_bg_3-01.png');
+	background-repeat: no-repeat;
+    background-position: center 0px;
+    padding: 80px 6px;
+    background-size: cover;
+    text-align: center; 
+}
+.second_section_websitep h4 {	
+	font-family: 'Montserrat-Bold';
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+.second_section_websitep h1 {
+	font-family: 'Montserrat-Bold';
+	color: white;
+	text-align: left;
+	font-size: 42px;
+}
+
+.second_section_websitep p {
+	color: #7F8289;
+	text-align: left;
+	font-size: 15px;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.second_section_websitep img {
+	width: 80%;
+	padding-top: 20px;
+}
+
+.last_logo_website {
+	width: 98%; 
+	padding-top: 7px;
+}
+
+.second_section_websitep h3 {
+	color: white;
+    font-size: 22px;
+    padding-top: 30%;
+}
+
+.view_brand_guideline_s {
+	background-color: #0D141C;
+	padding: 5% 10px 5%;
+}
+
+.view_brand_guideline_s h1 {
+	color: white;
+	font-family: 'Montserrat-Bold';
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+
+.view_brand_guideline_s p {
+	color: #fff;
+	font-family: 'Montserrat-Light';
+	font-size: 16px;
+}
+
+.line_backgorund_img {
+    /*background-image: url(../portfolio/img/portfolio_all_bg_body1-01.png);*/
+    background-color: #0D141C;
+    background-position: 50% 4%;
+    background-size: cover;
+}
+
+.line_backgorund_img h4 {
+	font-family: 'Montserrat-Bold';
+    font-size: 55px;
+    color: #5D6A84;
+}
+
+/*Newest Section on the website Innerpage*/
+
+.how_to_get_more_sales {
+	padding: 5% 10px 2%;
+	text-align: center;
+}
+
+.how_to_get_more_sales h3 {
+	color: #2A2E3A;
+	font-family: 'Montserrat-Regular';
+}
+
+.how_to_get_more_sales h2 {
+	font-family: 'Montserrat-Bold';
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.how_to_get_more_sales p {
+    padding: 5px 2%;
+    font-size: 16px;
+    color: #7F8289;
+}
+
+
+
+
+
+/*Branding Page*/
+
+/*Three W's*/
+
+.lines_background {   
+	background-image: url(../img/backgorund/lines_backg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.three_circles_branding {
+	padding: 0px 10px;
+}
+.w_s_panel {
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc; 
+	padding: 100px 25px;
+}
+
+.w_s_panel h3 {
+    margin-top: 0px;
+    font-size: 45px;
+    font-family: 'Montserrat-Bold';
+    color: #2A2E3A;
+}
+
+.w_s_panel p {
+	margin-bottom: 0px;
+}
+.cover_section_branding {	
+	background-image: url('../img/services/brand_cover-01.png');
+	background-size: cover;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center 0px;
+    padding: 13% 6px 8%;
+}
+.cover_section_branding p {
+	color: #7F8289;
+	font-size: 17px;
+}
+
+/*Marketing Page*/
+
+.cover_section_marketing {	
+	background-image: url('../img/services/marketing_cover-01.png');
+	background-size: cover;
+	background-position: center !important;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center 0px;
+    padding: 13% 6px 8%;
+}
+.cover_section_marketing p {
+	color: #7F8289;
+	font-size: 17px;
+}
+
+.cover_section_marketing h5 {
+	font-family: 'Montserrat-Bold';
+    letter-spacing: -1px;
+    font-size: 55px;
+}
+.marketing_icons_section {
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../img/backgorund/two_clors_bg.png');
+	color: white;
+	padding: 7% 10px;
+}
+.marketing_icons_section .col-md-6 {
+	padding-bottom: 20px;
+}
+.marketing_icons_section h3 {
+	font-family: 'Montserrat-Bold';
+	font-size: 34px;
+}
+.marketing_icons_section img {
+	width: 32%;
+}
+
+/*New Sections of marketing Innerpage!*/
+
+.the_process_marketing_in {
+	padding: 5% 10px;
+	background-color: #F2F2F2;
+}
+
+.the_process_marketing_in h3 {
+	color: #2A2E3A;
+    font-family: 'Montserrat-Regular';
+}
+
+.the_process_marketing_in h2 {
+	font-family: 'Montserrat-Bold';
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.the_process_panel_m {
+	border: solid 1px #B3B3B3;
+	padding: 30px 20px;
+	height: 320px;
+	margin-top: 10px;
+	background-color: white;
+}
+
+.the_process_panel_m h5 {
+	color: #2A2E3A;
+    font-family: 'Montserrat-Light';
+    font-size: 20px;
+}
+
+.the_process_panel_m p {
+	color: #7F8289;
+}

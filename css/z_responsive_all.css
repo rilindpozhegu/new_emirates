@@ -1,0 +1,433 @@
+/*======================*/
+
+/*	 Responzive Part    */
+
+/*======================*/
+
+
+/*TABLET VERSION*/
+/*Only in desktop*/
+@media only screen and (min-width: 1024px) {
+    .desktop-d-n {
+      display: none;
+    }
+
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 1024px) {
+    .mobile-d-n {
+   		display: none;
+  	}  	
+    .header_title_cover {
+	    padding: 2% 6px;
+	}
+}
+
+
+/*	MOBILE 	*/
+/*Only in desktop*/
+@media only screen and (min-width: 1000px) {
+    .desktop-d-n {
+      display: none;
+    }
+    .statistics_section_home {
+	    background-color: #2A2E3A;
+	    /*height: 66%;*/
+	}
+
+}
+
+
+
+ 
+
+/*Only on Mobile*/
+@media only screen and (max-width: 1000px) {
+    .mobile-d-n {
+   		display: none;
+  	}
+    .header_title_cover {
+	    padding: 0% 6px;
+	}
+	.header_title_cover h1 {
+	    font-size: 47px;
+	    font-family: 'Montserrat-Bold';
+	    letter-spacing: -2px;
+	}
+	.header_title_cover p {
+	    color: white;
+	    font-size: 18px;
+	}
+	.header_title_cover {
+	    /* padding: 17% 6px 0px; */
+	    position: absolute;
+	    top: 25%;
+	    text-align: center;
+	}
+	.section_one_homepage {
+	    padding: 20px 0px 40px;
+	}
+	.first_inner_section_one .other_f {
+	    font-family: 'HelveticaNeueLTStd';
+	    letter-spacing: 1px;
+	    font-size: 12px;
+	}
+	.section_one_homepage h3 {
+	    font-family: 'Montserrat-UltraLight';
+	    color: #5D6A84;
+	    font-size: 40px;
+	}
+	.button_in_panel_h {
+		width: 100%;
+	}
+	.mockup_panel .title {
+		padding-right: 6%;
+	}
+	.our_work_home_p {
+		padding: 20px 10px 60px;
+	}
+	.bgcolor {
+		height: 420px;
+	}
+	.statistics_section_home .big_mockup_p {
+		text-align: center;
+	}
+	.statistics_section_home .statistics_text_right {
+		padding: 10px 20px;
+	}
+	.lastest_news_home p {
+		font-size: 12px;
+	}
+	.bring_text_home {
+		padding: 50px 40px;
+	}
+	.bring_your_project h1 {
+	    font-family: 'Montserrat-Bold';
+	    font-size: 36px;
+	    color: white;
+	    letter-spacing: -1px;
+	}
+	.bring_your_project p {
+		font-size: 19px;
+	}
+	/*Footer all Style */
+	.solial_media_footer {
+		text-align: center;
+	}
+	.solial_media_footer button {
+	  margin-top: 0px !important;
+	  width: 27%;
+	}
+
+	.general_footer button {
+		font-size: 12px;
+		text-align: center !important;
+
+	}
+
+	/*Get Started Navigation bar colored and the actual page*/
+	.cover_section_about {
+		background-image: none;
+		background-color: #0B1016;
+		padding: 24% 6px 10%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.cover_text_all_h1_p h1 {
+		font-size: 39px;
+	}
+	.cover_text_all_h1_p p {
+		font-size: 13px;
+	}
+	.scetion_one_about_page {
+		padding: 50px 6px;
+	}
+	.scetion_one_about_page img{
+		margin-bottom: 40px;
+	}
+
+	/*Build the package Page*/
+
+	.cover_section_services_page {
+		background-image: none;
+		background-color: #0B1016;
+		padding: 24% 6px 10%;
+		background-size: cover;
+		background-position:center;
+		background-repeat: no-repeat;
+		height: 100vh;
+	}
+	.cover_section_services_page img{
+		padding-bottom: 30px;
+	}
+	.services_page_first_section {
+		padding: 40px 4px; 
+	}
+
+	/*Pricing Page*/
+
+	.cover_pricing_services_page {
+		background-image: none;
+		background-color: #0B1016;
+		padding: 24% 6px 10%;
+		background-size: cover;
+		background-position:center;
+		background-repeat: no-repeat;
+		height: 100vh;
+	}
+	.price_page_first_section {
+		padding: 40px 20px 10px;
+	}
+	.get_free_mo_pricing {
+		padding: 40px 6px;
+	}
+	.get_free_mo_pricing .get_freee_text h1 {
+		font-size: 45px;
+	}
+	.get_free_mo_pricing .get_freee_text p {
+		font-size: 17px;
+	}
+	.get_free_mo_pricing img {
+		margin-top: 20px;
+	}
+
+	/*are we a good fit*/
+
+	.cover_are_we_g_page {
+		background-image: url('../img/backgorund/are_we_good_bg-01.png');
+		padding: 30% 6px 15%;
+		background-size: cover;
+		background-position:center;
+		background-repeat: no-repeat;
+	}
+	.choose_what_you_r_check {		
+		background-image: none;
+		background-color: #0B1016;
+	}
+
+	/*Blog Page*/
+
+	.cover_section_blog {
+		background-image: url('../img/backgorund/blog_cover_img-01.png');
+		padding: 27% 6px;
+		background-size: cover;
+		background-position:center;
+		background-repeat: no-repeat;
+	}
+
+	.information_contact_section .col-xs-12 {
+		text-align: center;
+		padding-bottom: 20px;
+		text-align: left !important;
+	}
+
+	/*Portfolio Page*/
+	.slider_slick_portfolio_main {
+		padding-top: 25%;
+		padding-bottom: 1%;
+	}
+	.responsive_portfolio h1{
+		font-size: 30px;
+	}
+	.slider_proj_mac img {
+	    padding: 20px 0px 0px 0px !important;
+	    width: 100%;
+	}
+
+	.first_section_port {
+		padding-top: 25%;
+	}
+
+	.slick-dots {
+		left: 0px !important;
+		width: 100% !important;
+	}
+
+	.cover_section_website {
+		padding-top: 20%;
+	}
+
+	.cover_section_marketing  {
+		padding-top: 20%;
+	}
+
+	.cover_section_branding {
+		padding-top: 20%;
+	}
+
+
+	.pop_up_modal_package {
+	    background-image: none;
+	    background-color: #0D141C;
+	    background-size: cover;
+	    background-position: 70%;
+	    background-repeat: no-repeat; 
+	    padding: 15% 30px;
+	    text-align: center;
+	}
+	.pop_up_modal_package input {
+		width: 100%;
+	}
+	.pop_up_modal_package button {
+		width: 100%;
+	}
+
+	.pop_up_modal_package .col-md-7 {
+		padding: 1% 5% 5%;
+	}
+
+	.questionnaire_section {
+	    padding: 26% 10px 0px;
+	    background-color: #0B1016;
+	    color: white;
+	}
+	.history-tl-container ul.tl li {
+		margin-left: 105px;
+	}
+
+	.history-tl-container ul.tl li p {
+		font-size: 12px;
+	}
+	ul.tl li .timestamp {
+	    color: #8D8D8D;
+	    position: absolute;
+	    width: 120px;
+	    left: -49%;
+	    text-align: right;
+	    font-size: 13px;
+	    font-family: 'Montserrat-Bold';
+	    top: -7px;
+	    text-align: center;
+	}
+
+	.statistics_text_right p {
+		font-size: 48px;
+	}
+	.experience_text_portfolio h3 {
+		text-align: center;
+	}
+	.view_project_btn_sec {
+		text-align: center;
+	}
+	.timeline_section {
+		background-image: none !important;
+		background-color: white;
+	}
+	.cover_section_career {
+		padding: 25% 10px;
+	}
+	/*#view_portfolio_popup {
+		padding-right: 0px !important;
+	}*/
+
+.privay_page_style {
+	margin-top: 20%;
+}
+
+  .privay_page_style h1 {
+    font-size: 2.5em;
+    line-height: 1.5em;
+  }
+
+  .privay_page_style p {
+    font-size: 2.5em;
+    line-height: 2em;
+  }
+
+  .last_buttons_portfolio button {
+  	font-size: 1px;
+  	color: transparent;
+  	text-align: center !important;
+  	padding: 6px;
+  }
+  .last_buttons_portfolio button i {
+  	color: red !important;
+  	font-size: 15px;
+  	text-align: center;
+  }
+
+
+/* New Input Section on homepage and services */
+.home_under_cover_input h2 {
+    font-family: 'Montserrat-UltraLight';
+    color: white;
+    margin: 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.home_under_cover_input .button_main.button__aylen {
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+.home_under_cover_input input {
+    margin-bottom: 12px;
+}
+
+.second_section_websitep h1 {
+    font-family: 'Montserrat-Bold';
+    color: white;
+    text-align: left;
+    font-size: 35px;
+    text-align: center;
+}
+
+.second_section_websitep p {
+    color: #7F8289;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.second_section_websitep h3 {
+    color: white;
+    font-size: 22px;
+    padding-top: 3%;
+}
+
+.second_section_websitep img {
+    width: 47%;
+    padding-top: 20px;
+}
+.last_logo_website {
+	width: 75%; 
+	padding-top: 7px;
+}
+.line_backgorund_img h4 {
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+    color: #5D6A84;
+    margin: 0px;
+}
+
+.get_free_mo_pricing .get_freee_text span {
+    color: #FF0000;
+    font-size: 40px;
+}
+
+.the_process_panel_m p {
+    color: #7F8289;
+    font-size: 12px;
+}
+
+.the_process_panel_m {
+    border: solid 1px #B3B3B3;
+    padding: 5px 10px;
+    height: 320px;
+    margin-top: 10px;
+    background-color: white;
+}
+.for_marketgin_section_sm {
+    background-position: 41%;
+}
+
+.for_marketgin_section_sm h2 {
+    font-size: 45px;
+}
+}
+
